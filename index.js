@@ -81,10 +81,10 @@ const removeBook = (bookIndex) => {
 const displayBooks = () => {
   const books = getBookStorage();
   books.forEach((book) => {
-    const mainContainer = BookAppend("div", "", "pair");
-    const titleContainer = BookAppend("div", book.title, "bookClass");
-    const authorContainer = BookAppend("div", book.author, "authorClass");
-    const divider = BookAppend("div", "by", "authorClass");
+    const mainContainer = BookAppend("li", "", "listContainer");
+    const titleContainer = BookAppend("p", book.title, "bookClass");
+    const authorContainer = BookAppend("p", book.author, "authorClass");
+    const divider = BookAppend("p", "by", "authorClass");
     const myButton = BookAppend("button", "Remove", "removeButton");
     myButton.id = book.Id;
     mainContainer.append(titleContainer);
@@ -98,4 +98,12 @@ const displayBooks = () => {
   });
 };
 
-displayBooks();
+window.addEventListener('load', () => {
+  displayBooks();
+  listSection.style.display = "block";
+  List.style.color = "blue";
+  AddNew.style.color = "black";
+  Contact.style.color = "black";
+  AddNewSection.style.display = "none";
+  ContactSection.style.display = "none";
+});
