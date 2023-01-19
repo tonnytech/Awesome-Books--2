@@ -1,3 +1,7 @@
+import getBookStorage from "./modules/getBooks.js";
+import BookAppend from "./modules/createElement.js";
+import { DateTime } from './modules/luxon.js';
+
 const Form = document.getElementById("form");
 const BookInput = document.getElementById("newFormBook");
 const AuthorInput = document.getElementById("newFormAuthor");
@@ -38,14 +42,9 @@ Contact.addEventListener("click", () => {
   Contact.style.color = "blue";
 });
 
-const getBookStorage = () => {
-  let booksListStorage;
-  if (JSON.parse(localStorage.getItem("bookListStorage")) === null) {
-    booksListStorage = [];
-  } else {
-    booksListStorage = JSON.parse(localStorage.getItem("bookListStorage"));
-  }
-  return booksListStorage;
+const AddNewBook = () => {
+  const bookList = getBookStorage();
+  NewBook(BookInput.value, AuthorInput.value, bookList.length);
 };
 
 const NewBook = (myTitle, myAuthor, myId) => {
@@ -54,21 +53,9 @@ const NewBook = (myTitle, myAuthor, myId) => {
   localStorage.setItem("bookListStorage", JSON.stringify(getBooks));
 };
 
-const AddNewBook = () => {
-  const bookList = getBookStorage();
-  NewBook(BookInput.value, AuthorInput.value, bookList.length);
-};
-
 Form.addEventListener("submit", () => {
   AddNewBook();
 });
-
-const BookAppend = (ele, content, myClass) => {
-  const element = document.createElement(ele);
-  element.innerHTML = content;
-  element.className = myClass;
-  return element;
-};
 
 const removeBook = (bookIndex) => {
   const books = getBookStorage();
@@ -98,8 +85,19 @@ const displayBooks = () => {
   });
 };
 
+const currentTime = () => {
+  const date = document.getElementById("date");
+
+  setInterval(() => {
+    const now = DateTime.now();
+    date.innerHTML = now.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
+  }, 1000);
+};
+
 window.addEventListener('load', () => {
+  currentTime();
   displayBooks();
+  myDefault();
   listSection.style.display = "block";
   List.style.color = "blue";
   AddNew.style.color = "black";

@@ -36,6 +36,7 @@ main {
 .class-list-items {
   border-left: 2px solid black;
   padding-left: 5px;
+  cursor: pointer;
 }
 
 .class-list-items:hover {
