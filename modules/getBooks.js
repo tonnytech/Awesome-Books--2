@@ -1,9 +1,9 @@
 const getBookStorage = () => {
   let booksListStorage;
-  if (JSON.parse(localStorage.getItem("bookListStorage")) === null) {
+  if (JSON.parse(localStorage.getItem('bookListStorage')) === null) {
     booksListStorage = [];
   } else {
-    booksListStorage = JSON.parse(localStorage.getItem("bookListStorage"));
+    booksListStorage = JSON.parse(localStorage.getItem('bookListStorage'));
   }
   return booksListStorage;
 };

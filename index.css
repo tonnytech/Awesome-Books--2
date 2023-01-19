@@ -58,10 +58,10 @@ main {
 }
 
 .bookListItemsContainer {
-border: 1px solid black;
-margin-left: 20%;
-margin-right: 20%;
-padding: unset;
+  border: 1px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: unset;
 }
 
 .listContainer:nth-of-type(odd) {
