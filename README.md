@@ -1,196 +1,124 @@
+# awesome-books-es6
+
+<a name="readme-top"></a>
 
 <div align="center">
 
-  <img src="./assets/img/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Awesome Books ES6</b></h3>
 
 </div>
 
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Javascript Course: Awesome Books ES6 ](#javascript-course-awesome-books-es6)
+  - [🛠 Built With ](#-built-with-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
 
-# 📖 Book library- <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**Book library-** is a Web App that adds and deletes books.
+# 📖 Javascript Course: Awesome Books ES6 <a name="about-project"></a>
+
+**[Awesome Books with  ES6]** is a website project that adds and removes book title and author to local storage of browser
 
 ## 🛠 Built With <a name="built-with"></a>
-VS Code
 
-### Tech Stack <a name="tech-stack"></a>
-
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-  </ul>
-</details>
-
-
-
-### Key Features <a name="key-features"></a>
-
-
-- **Add Button**
-- **Remove Button**
-- **An Array of Books**
-
-
+    Javascript
+    HTML5
+    CSS3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You would be able see later a Live Version of this awesome books library deployed with Github pages  below
-
-**git https://fitz95.github.io/gamerzone-Page/.**
-
+[updating soon](https:s//eric2umeh.github.io/awesome-books-es6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 💻 Getting Started <a name="getting-started"></a>
-To get a local copy up and running, follow these steps.
-1 clone the repo
-2 extract the files and you good to go
+
+- Create a local directory to clone this repository.
+
+- Open the command prompt in the created directory.
+
+- On the terminal run this command `git clone https://github.com/teitonny/Awesome-Books--2.git`
+
+- Install the dev dependencies for linters and run npm install.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Prerequisites
 
 In order to run this project you need:
 
-No Prerequisite 
+-Any of the broswers
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-cd my-folder 
+- Open the command prompt in the created directory.
 
-git clone https://github.com/fitz95/Portfolio-Microverse-/
-Example commands:
+- On the terminal run this command `git clone https://github.com/teitonny/Awesome-Books--2.git`
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-cd my-project 
-and then clone
-No installation required 
-
-### Usage
-
-To run the project, execute the following command:
-
-
-clone, extract and use 
-
-### Run tests
-
-To run tests use Linters
-
-
-### Deployment
-
-You can deploy this project using Heroku, Netlify or any free hosting platform
+- Install the dev dependencies for linters and run npm install.
+  --->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Authors -->
 
-## 👥 Authors <a name="authors"></a>
-.
+👤 **Tonny Tei**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/teitonny/)
-- Twitter: [@twitterhandke](https://twitter.com/tonnytei/)
-- linkedIn: [@linkedinhandle](https://www.linkedin.com/in/nsong-asoh/)
+- GitHub: [@teitonny](https://github.com/eric2umehs)
+- Twitter: [@tonnytei](https://twitter.com/king_erics_)
+- LinkedIn: [tonnytei](https://www.linkedin.cosm/in/eric-umeohabike-4a510ba4/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[More Functionalities]**
-- [ ] **[More Pages]**
-- [ ] **[Desktop friendly site]**
+- Implement the same website using a database such as spl or mongodb
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Take your time to check the [issues page](https://github.com/eric2sumeh/awesome-books-es6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project follow me
+Give a ⭐️ if you do like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+- Thanks to [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_methods) for the documentation on Objects and [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_methods) for the documentation on Classes.
 
-I would like to thank the Microverse team and also 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ❓ FAQ <a name="faq"></a>
-
-- **[Is the site easy to set up ?]**
-
-  - It is very easy to setup just an html and css page
-
-- **[Are ther any prerequisite you need ?]**
-
-  - answer is you need just winrar to extract and use the files.
+- Thanks to [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) for the documentation on objects and classes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
