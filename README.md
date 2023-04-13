@@ -40,7 +40,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[updating soon](https:s//eric2umeh.github.io/awesome-books-es6/)
+[See live demo](https://tonnytech.github.io/Awesome-Books--2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
